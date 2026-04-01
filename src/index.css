@@ -1,0 +1,15 @@
+/* Global base reset — minimal, all design in App.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #07070f;
+}
+
+#root {
+  min-height: 100vh;
+}
